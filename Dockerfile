@@ -2,9 +2,9 @@ FROM node:8.12
 
 WORKDIR /app
 
-ADD . /app
+ADD package.json ./app
 
-RUN npm install
+RUN npm install --quiet
 
 EXPOSE 3000
 

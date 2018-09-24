@@ -1,0 +1,97 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "forget",
+        "text": "These aren't the droids you're looking for"
+      },
+      {
+        "intent": "forget",
+        "text": "You don't remember me anymore"
+      },
+      {
+        "intent": "forget",
+        "text": "You don't know me"
+      },
+      {
+        "intent": "forget",
+        "text": "forget who I am"
+      },
+      {
+        "intent": "forget",
+        "text": "forget my name"
+      },
+      {
+        "intent": "forget",
+        "text": "forget me"
+      },
+      {
+        "intent": "hello",
+        "text": "yo"
+      },
+      {
+        "intent": "hello",
+        "text": "howdy"
+      },
+      {
+        "intent": "hello",
+        "text": "good day!"
+      },
+      {
+        "intent": "hello",
+        "text": "good morning"
+      },
+      {
+        "intent": "hello",
+        "text": "holla"
+      },
+      {
+        "intent": "hello",
+        "text": "bonjour"
+      },
+      {
+        "intent": "hello",
+        "text": "hey there"
+      },
+      {
+        "intent": "hello",
+        "text": "hi bot"
+      },
+      {
+        "intent": "hello",
+        "text": "hey bot"
+      },
+      {
+        "intent": "hello",
+        "text": "hey robot"
+      },
+      {
+        "intent": "hello",
+        "text": "hey!"
+      },
+      {
+        "intent": "hello",
+        "text": "hi"
+      },
+      {
+        "intent": "hello",
+        "text": "hello"
+      },
+      {
+        "intent": "none",
+        "text": "!&#^&*$^*(%"
+      },
+      {
+        "intent": "none",
+        "text": "1234567"
+      },
+      {
+        "intent": "none",
+        "text": "abcdefg"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

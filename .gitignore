@@ -35,3 +35,8 @@ jspm_packages
 /.data
 
 !/.data/middlewares.json
+
+# Rasa stuff
+*.pkl
+rasa/projects/**/model_*
+!rasa/project/**/training_data.json

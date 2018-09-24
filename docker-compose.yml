@@ -2,10 +2,25 @@ version: "3"
 
 services:
   bp:
-    build: .
+    build: 
+      context: ./botpress
     command: npm start
     ports:
       - "3000:3000"
     volumes:
-      - .:/app
+      - ./botpress:/app
       - /app/node_modules
+    depends_on:
+      - rasa
+  rasa:
+    image: rasa/rasa_nlu:0.13.4-full
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./rasa/projects:/app/projects
+      - ./rasa/logs:/app/logs
+      - ./rasa/data:/app/data
+      - ./rasa/config.yml:/app/config.yml
+    environment:
+      - RASA_LOG_LEVEL='DEBUG'
+
